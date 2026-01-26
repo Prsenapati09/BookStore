@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const url = process.env.Mongodb_url
+const url = process.env.Mongodb_atlas
 
 mongoose.connect(url)
 
