@@ -11,8 +11,8 @@ app.get('/',(req,res)=>{
 })
 
 // import routes
-const Books = require('../routes/Books.routes')
-const user = require('../routes/user.route')
+const Books = require('./src/routes/Books.routes')
+const user = require('./src/routes/user.route')
 
 app.use('/books',Books)
 app.use('/user',user)
