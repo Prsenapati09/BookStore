@@ -41,7 +41,7 @@ const allBooks = async (req,res)=>{
             })
         }
     } catch (error) {
-        res.send('error')
+        res.send('error',error)
     }
 }
 
