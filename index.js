@@ -19,7 +19,4 @@ app.use('/user',user)
 
 
 
-const Port = process.env.PORT
-app.listen(Port,()=>{
-    console.log("server is running")
-})
+module.exports = app
